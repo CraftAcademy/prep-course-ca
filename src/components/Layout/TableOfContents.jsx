@@ -60,9 +60,9 @@ class TableOfContents extends React.Component {
       })
       listItems.push(
         <li className='chapter'>
-          <h5 className='tocHeading'>
+          <h6 className='tocHeading'>
             {chapterTitles[idx].toUpperCase()}
-          </h5>
+          </h6>
           <ul className='chapterItems'>
             {chapterLessons}
           </ul>
@@ -91,13 +91,13 @@ const TableOfContentsContainer = styled.div`
     padding: 0;
     margin: 0;
   }
-  
+
   p, h6 {
     display: inline-block;
     font-weight: 200;
     margin: 0;
   }
-  
+
   .tocHeading {
      font-weight: 200;
      color: ${props => props.theme.brand};
@@ -124,4 +124,3 @@ const LessonContainer = styled.div`
 `
 
 export default TableOfContents
-
