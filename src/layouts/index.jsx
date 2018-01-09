@@ -3,7 +3,9 @@ import Helmet from "react-helmet";
 import styled, {ThemeProvider} from "styled-components"
 import config from "../../data/SiteConfig";
 import "./css/index.css";
-import "./css/prism-okaidia.css";
+
+import "./css/prism.css";
+import './css/highlight-code-line.css';
 import theme from './theme'
 
 

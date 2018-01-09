@@ -25,6 +25,7 @@ module.exports = {
         fonts: [
           `crimson text:400, 400i, 700, 700i`,
           `space mono:400,700`,
+          `Inconsolata:400,700`
         ],
       }
     },
