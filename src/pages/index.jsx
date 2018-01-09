@@ -27,7 +27,7 @@ class Index extends React.Component {
           <BodyContainer>
             <h2>May the force be with you! Young Padawan.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ducimus distinctio aperiam laudantium quam recusandae deserunt mollitia accusamus vel, ut ipsum facere animi ullam non ratione.</p>
-            <CtaButton to={'/lesson-one'}>Get started</CtaButton>
+            <CtaButton to={'/introduction'}>Get started</CtaButton>
           </BodyContainer>
         </main>
       </div>
