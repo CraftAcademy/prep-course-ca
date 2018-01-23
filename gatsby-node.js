@@ -15,7 +15,8 @@ exports.onCreateNode = ({node, boundActionCreators, getNode}) => {
       slug = node.frontmatter.slug;
     } else if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, "title")
+      Object.prototype.hasOwnProperty.call(node.frontmatter, "title") &&
+      typeof(slug) === 'undefined'
     ) {
       slug = `/${_.kebabCase(node.frontmatter.title)}`;
     } else if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
